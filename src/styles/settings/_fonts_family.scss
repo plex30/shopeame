@@ -1,0 +1,15 @@
+:root{
+    --font-family-base :Inter;
+    --font-family-logo: 'Red Hat Display'
+}
+
+@font-face{
+    font-family: 'Inter';
+    src: url('../../assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+@font-face{
+    font-family: 'Red Hat Display';
+    src: url('../../assets/fonts/RedHatDisplay-Regular.ttf');
+}
+

@@ -1,0 +1,38 @@
+.menu-bar {
+  position: absolute;
+  width: 240rem;
+  height: 9rem;
+  left: 0.125rem;
+  top: 12.625rem;
+  background: var(--color-menu-bar);
+}
+
+.c-menu {
+  display: flex;
+  position: absolute;
+  width: 300px;
+  left: 42.7%;
+  text-align: center;
+
+  &__link {
+    color: var(--color-primary);
+    font-family: var(--font-family-base);
+    text-decoration: none;
+    width: 100px;
+    margin-left: 0.5rem;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.018em;
+    color: #444444;
+
+
+    &--active {
+      background: rgba(235, 242, 255, 0.3);
+      border-radius: 10px;
+      color: var(--color-icon-menu);
+      border: none;
+
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.main-home {
+  background-color: var(--color-white);
+  position: absolute;
+  width: 1200px;
+  height: 875px;
+  left: 360px;
+  top: 252px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  color: var(--color-black);
+  font-family: "Inter";
+
+  
+}
+
+.b-tittle {
+    position: absolute;
+    width: 756px;
+    height: 52px;
+    left: calc(50% - 756px / 2 - 163.5px);
+    top: calc(50% - 52px / 2 - 601px);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+
+    &--italic{
+        position: absolute;
+width: 430px;
+height: 38px;
+left: calc(50% - 430px/2);
+top: calc(50% - 38px/2 - 418.5px);
+
+/* Inter / 24 sp • H5 */
+
+font-family: Inter;
+font-style:italic;
+font-weight: bold;
+font-size: 24px;
+line-height: 150%;
+/* or 36px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Dark Color */
+
+color: rgba(0, 0, 0, 0.87);
+    }
+  }

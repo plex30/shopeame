@@ -1,13 +1,23 @@
-<div class="container">
-    <ul>
-        <li>
-            <a [routerLink]="[ '/']">Home</a>
-        </li>
-        <li>
-            <a [routerLink]="[ '/products']">Prods.</a>
-        </li>
-        <li>
-            <a [routerLink]="[ '/management']">Gestión</a>
-        </li>
-    </ul>
-</div>
+<nav class="menu-bar">
+    <div class="c-menu">
+        
+            <!-- <a class="u-nav" [routerLink]="[ '/']"><img src="../../../../assets/img/homelogo.png"></a> -->
+            <a class="c-menu__link" routerLink="" routerLinkActive="c-menu__link--active" [routerLinkActiveOptions]="{ exact: true }"><span
+                class="c-menu__icon fas fa-radiation"></span>Home</a>
+        
+    
+            <!-- <a class="u-nav" [routerLink]="[ '/products']"><img src="../../../../assets/img/prodlogo.png">Prods.</a> -->
+            <figure [routerLink]="[ '/products']" class="c-menu__link" routerLinkActive="c-menu__link--active">
+                <img src="../../../../assets/img/prodlogo.png">
+                <figcaption>Prods.</figcaption>
+            </figure>
+        
+        
+            <!-- <a class="u-nav" [routerLink]="[ '/management']"><img src="../../../../assets/img/managementlogo.png">Gestión</a> -->
+            <figure [routerLink]="[ '/management']" class="c-menu__link" routerLinkActive="c-menu__link--active">
+                <img src="../../../../assets/img/managementlogo.png">
+                <figcaption>Gestión</figcaption>
+            </figure>
+        
+    </div>
+</nav>

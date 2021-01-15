@@ -1,0 +1,39 @@
+.into-bar {
+  position: absolute;
+  width: 240rem;
+  height: 12.5rem;
+  left: 0.125rem;
+  top: 0.125rem;
+  background: var(--color-white);
+
+
+}
+
+.c-logo{
+    font-family: 'Red Hat Display';
+}
+
+.logo {
+  position: absolute;
+  left: 43%;
+  padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 4.5rem;
+  background: linear-gradient(90deg, #2979FF 0%, #4C589E 100%);
+  border-radius: 6px;
+  color: var(--color-white);
+
+
+}
+
+.text-logo {
+  position: absolute;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+  color: var(--color-text-logo);
+  margin-left: 1.5rem;
+}
