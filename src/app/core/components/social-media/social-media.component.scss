@@ -1,0 +1,29 @@
+.c-socialmedia{
+    color: var(--color-white);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.018em;
+    margin-bottom: 7rem;
+    &__tab{
+        display: flex;
+        justify-content: center;
+        margin-right: 4.5rem;
+    }
+
+    &__item{
+        list-style: none;
+        
+    }
+
+    &__link{
+        text-decoration: none;
+        color: var(--color-white);
+        border-right: 1px solid white;
+        margin: 0 1rem;
+        padding-right: 1.7rem;
+        
+    }
+}

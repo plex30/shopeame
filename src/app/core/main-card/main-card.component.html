@@ -1,5 +1,5 @@
 <div class="main-home" *ngIf="router.url==='/'">
-    <h5 class="b-tittle--italic">Bienvenido a Shopéame</h5>
+    <h5 class="b-tittle b-tittle--italic">Bienvenido a Shopéame</h5>
     <app-content-home></app-content-home>
     </div>
     
@@ -8,7 +8,7 @@
     <app-content-products></app-content-products>
     </div>
     
-    <div class="main-managements" *ngIf="router.url==='/management'">
+    <div class="main-management" *ngIf="router.url==='/management'">
     <h5 class="b-tittle">Creación/Edición de productos</h5>
     <app-content-management></app-content-management>
     </div>

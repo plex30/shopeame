@@ -1,0 +1,20 @@
+.c-footer {
+  background-color: var(--color-back-footer);
+  position: absolute;
+  width: 1920px;
+  height: 280px;
+  left: 0px;
+  top: 1194px;
+  text-align: center;
+
+  &__text {
+    color: var(--color-white);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.018em;
+    margin-top: 8rem;
+  }
+}

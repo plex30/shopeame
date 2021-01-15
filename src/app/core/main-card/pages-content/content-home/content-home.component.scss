@@ -1,0 +1,15 @@
+.mc-home{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.0275em;
+    color: var(--color-text-home);
+    margin-top: 20rem;
+    margin: 21rem 4rem; 
+    
+    &__text{
+        font-weight: 500;
+    }
+}
