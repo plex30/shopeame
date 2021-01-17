@@ -16,9 +16,11 @@
     "@angular/compiler": "~11.0.6",
     "@angular/core": "~11.0.6",
     "@angular/forms": "~11.0.6",
+    "@angular/localize": "~11.0.6",
     "@angular/platform-browser": "~11.0.6",
     "@angular/platform-browser-dynamic": "~11.0.6",
     "@angular/router": "~11.0.6",
+    "@ng-bootstrap/ng-bootstrap": "^9.0.0",
     "bootstrap": "^4.5.3",
     "normalize": "^0.3.1",
     "rxjs": "~6.6.0",
@@ -43,6 +45,19 @@
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
-    "typescript": "~4.0.2"
-  }
+    "typescript": "^4.0.5"
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/juan.cort.punz/angularshopeame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/juan.cort.punz/angularshopeame/issues"
+  },
+  "homepage": "https://gitlab.com/juan.cort.punz/angularshopeame#readme"
 }

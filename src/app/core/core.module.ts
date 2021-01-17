@@ -12,6 +12,8 @@ import { ContentProductsComponent } from './main-card/pages-content/content-prod
 import { RouterModule } from '@angular/router';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { SharedModule } from '../shared/shared.module';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 
 
@@ -31,7 +33,9 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     RouterModule,
-    SharedModule
+    SharedModule,
+    ReactiveFormsModule
+    
   ],
   exports: [
     FooterComponent, 

@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { ManagementPageRoutingModule } from './management-page-routing.module';
 import { ManagementPageComponent } from './management-page.component';
 import { CoreModule } from 'src/app/core/core.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { CoreModule } from 'src/app/core/core.module';
   imports: [
     CommonModule,
     ManagementPageRoutingModule,
-    CoreModule
+    CoreModule,
+    ReactiveFormsModule
   ]
 })
 export class ManagementPageModule { }

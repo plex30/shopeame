@@ -11,7 +11,7 @@ export class CardComponent implements OnInit {
 
   @Input() data;
   products: any = {};
-  currentRate = 0;
+
     
   constructor(private router: Router, private productService: ProductsService) { }
 
