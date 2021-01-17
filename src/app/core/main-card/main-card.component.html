@@ -1,14 +1,14 @@
 <div class="main-home" *ngIf="router.url==='/'">
-    <h5 class="b-tittle b-tittle--italic">Bienvenido a Shopéame</h5>
-    <app-content-home></app-content-home>
-    </div>
-    
-    <div class="main-products" *ngIf="router.url==='/products'">
-    <h5 class="b-tittle">Listado de productos</h5>
-    <app-content-products></app-content-products>
-    </div>
-    
-    <div class="main-management" *ngIf="router.url==='/management'">
-    <h5 class="b-tittle">Creación/Edición de productos</h5>
-    <app-content-management></app-content-management>
-    </div>
+  <h5 class="b-tittle b-tittle--italic">Bienvenido a Shopéame</h5>
+  <app-content-home></app-content-home>
+</div>
+
+<div class="main-products" *ngIf="router.url==='/products'">
+  <h5 class="b-tittle">Listado de productos</h5>
+  <app-content-products></app-content-products>
+</div>
+
+<div class="main-management" *ngIf="router.url==='/management'">
+  <h5 class="b-tittle">Creación/Edición de productos</h5>
+  <app-content-management></app-content-management>
+</div>

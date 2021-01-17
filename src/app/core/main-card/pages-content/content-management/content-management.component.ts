@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { ProductsService } from 'src/app/shared/services/products.service';
 
 @Component({
   selector: 'app-content-management',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContentManagementComponent implements OnInit {
 
-  constructor() { }
+  constructor(private productService: ProductsService, private router: Router) { }
+
+  data;
 
   ngOnInit(): void {
+    this.data = this.productService.getProduct();
   }
+
+ 
 
 }

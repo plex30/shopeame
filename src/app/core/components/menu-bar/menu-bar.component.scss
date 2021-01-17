@@ -1,6 +1,6 @@
 .menu-bar {
   position: absolute;
-  width: 240rem;
+  width: 100vw;
   height: 9rem;
   left: 0.125rem;
   top: 12.625rem;
@@ -15,11 +15,15 @@
   text-align: center;
 
   &__link {
+    display: inline-flex;
+    flex-direction: column;
     color: var(--color-primary);
     font-family: var(--font-family-base);
     text-decoration: none;
     width: 100px;
     margin-left: 0.5rem;
+    padding: 1.5rem;
+    margin-top: 0.6rem;
     font-weight: 500;
     font-size: 14px;
     line-height: 143%;
@@ -32,7 +36,12 @@
       border-radius: 10px;
       color: var(--color-icon-menu);
       border: none;
+      padding: 1.5rem;
 
     }
+  }
+
+  &__icon{
+    font-size: 18px;
   }
 }

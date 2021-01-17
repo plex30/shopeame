@@ -3,7 +3,10 @@
     <img class="c-card__img" src="{{data.image}}" alt="{{data.name}}">
     <h4>{{data.name}}</h4>
     <p>{{data.description}}</p>
-    <h3>{{data.price}}</h3>
+    <h3>${{data.price}}</h3>
     <p>{{data.stars}}</p>
-    <button>Editar</button>
+    <div class="stars">
+        
+    </div>
+    <button (click)="sendProduct(data)" *ngIf="router.url==='/products'">Editar</button>
 </div>
