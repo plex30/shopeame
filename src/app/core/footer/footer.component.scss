@@ -1,11 +1,11 @@
 .c-footer {
   background-color: var(--color-back-footer);
- 
+  height: 35rem;
   width: 100vw;
-  height: 280px;
-  left: 0px;
-  top: 1194px;
   text-align: center;
+  margin-top: -13rem;
+  margin-left: -1rem;
+  margin-bottom: -1rem;
 
   &__text {
     color: var(--color-white);
@@ -15,6 +15,6 @@
     font-size: 14px;
     line-height: 143%;
     letter-spacing: 0.018em;
-    margin-top: 8rem;
+    padding-top: 8rem;
   }
 }
