@@ -1,63 +1,29 @@
-.main-home  {
+.main-home, .main-products, .main-management {
   background-color: var(--color-white);
-  position: absolute;
-  width: 1200px;
-  height: 875px;
-  left: 360px;
-  top: 252px;
+  width: 96vw;
+  margin-top: 22.5rem;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   color: var(--color-black);
   font-family: "Inter";
-  box-sizing: content-box;
-
-
 }
 
-.main-products{
-  position: absolute;
-
-left: 360px;
-top: 252px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 10px;
-box-sizing: border-box;
-}
-
-.main-management{
-  position: absolute;
-
-left: 359px;
-top: 275px;
-background: #FFFFFF;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 10px;
-box-sizing: content-box;
-
-}
 
 .b-tittle {
-  position: absolute;
-  width: 756px;
-  height: 52px;
-  left: calc(50% - 756px / 2 - 163.5px);
-  top: calc(50% - 52px / 2 - 601px);
+
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 2.7rem;
   line-height: 150%;
+  text-align: center;
+  padding-top: 2rem;
 
   &--italic {
-    position: absolute;
-    width: 430px;
-    height: 38px;
-    font-family: 'Inter';
     font-style: italic;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.87);
-    top: 5rem;
-    left: 55rem;
+    padding-top: 2rem;
+    margin-bottom: -15rem;
+
   }
 }

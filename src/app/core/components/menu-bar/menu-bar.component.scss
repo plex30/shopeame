@@ -5,14 +5,14 @@
   left: 0.125rem;
   top: 12.625rem;
   background: var(--color-menu-bar);
+
 }
 
 .c-menu {
   display: flex;
-  position: absolute;
-  width: 300px;
-  left: 42.7%;
-  text-align: center;
+  justify-content: center;
+  width: 100%;
+
 
   &__link {
     display: inline-flex;
@@ -20,7 +20,8 @@
     color: var(--color-primary);
     font-family: var(--font-family-base);
     text-decoration: none;
-    width: 100px;
+    width: 80px;
+    text-align: center;
     margin-left: 0.5rem;
     padding: 1.5rem;
     margin-top: 0.6rem;
@@ -41,7 +42,7 @@
     }
   }
 
-  &__icon{
+  &__icon {
     font-size: 18px;
   }
 }
