@@ -12,14 +12,32 @@ export class ContentManagementComponent implements OnInit {
 
   constructor(private productService: ProductsService, private router: Router, private formBuilder: FormBuilder) { }
 
-  data;
+  data = {
+    id: 0,
+    name:  '',
+    price:  '',
+    description:  '',
+    stars:  '',
+    image:  '',
+  };
+
+  newData =  {
+    name:  '',
+    price:  '',
+    description:  '',
+    stars:  '',
+    image:  '',  
+
+  };
+
   dataFormu;
 
 
 
+
   ngOnInit(): void {
+    
     this.data = this.productService.getProduct();
-    console.log(this.data)
 
     this.dataFormu = this.data;
 
@@ -34,24 +52,53 @@ export class ContentManagementComponent implements OnInit {
     })
 
     this.dataFormu.get('name').valueChanges.subscribe(name =>{
-      this.data.name = name;
+      if (this.data == undefined) {
+        this.newData.name = name;
+      }else{
+        this.data.name = name;
+      }
+      
     })
     this.dataFormu.get('price').valueChanges.subscribe(price=>{
-      this.data.price = price;
+      if (this.data == undefined) {
+        this.newData.price = price;
+      }else{
+        this.data.price = price;
+      }
     })
     this.dataFormu.get('desc').valueChanges.subscribe(desc =>{
-      this.data.description = desc;
+      if (this.data == undefined) {
+        this.newData.description = desc;
+      }else{
+        this.data.description = desc;
+      }
     })
     this.dataFormu.get('img').valueChanges.subscribe(img =>{
-      this.data.image = img;
+      if (this.data == undefined) {
+        this.newData.image = img;
+      }else{
+        this.data.image = img;
+      }
     })
     this.dataFormu.get('stars').valueChanges.subscribe(stars =>{
-      this.data.stars = stars;
+      if (this.data == undefined) {
+        this.newData.stars = stars;
+      }else{
+        this.data.stars = stars;
+      }
     })
     
-  console.log(this.dataForm)
+  
 
   }
   
+  saveProduct(){
+    if (!this.data) {
+      this.productService.postProduct(this.newData).subscribe();
+    }else{
+      this.productService.putProduct(this.data, this.data.id).subscribe();
+    }
+    
+  }
 
 }
