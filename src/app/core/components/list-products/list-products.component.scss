@@ -1,0 +1,22 @@
+.list-prod{
+    font-size: 1.3rem;
+    
+    &__li{
+        display: flex;
+        list-style: none;
+    }
+
+    &__img{
+        width: 100%;
+        
+    }
+
+    &__txt{
+
+    }
+}
+
+.div-img{
+    width: 20%;
+}
+

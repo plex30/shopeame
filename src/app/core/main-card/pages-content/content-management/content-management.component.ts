@@ -17,7 +17,7 @@ export class ContentManagementComponent implements OnInit {
     name:  '',
     price:  '',
     description:  '',
-    stars:  '',
+    stars:  0,
     image:  '',
   };
 
@@ -33,7 +33,7 @@ export class ContentManagementComponent implements OnInit {
   dataFormu;
 
 
-
+ 
 
   ngOnInit(): void {
     
@@ -102,3 +102,7 @@ export class ContentManagementComponent implements OnInit {
   }
 
 }
+
+  
+
+

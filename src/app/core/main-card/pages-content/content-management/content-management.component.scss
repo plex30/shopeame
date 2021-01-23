@@ -1,3 +1,39 @@
-.f-manage{
-    display: inline-block;
+.f-manage {
+  width: 75%;
+  margin-left: 5.5rem;
+  border-bottom: 1px solid var(--color-btn-manage);
+  padding-bottom: 10rem;
+
+  &__input {
+    width: 102%;
+    height: 4rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    border: 1px solid rgb(69, 69, 69);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  &__label {
+    padding-bottom: 2rem;
+  }
+
+  &__btn {
+    background: var(--color-btn-manage);
+    border: 1px solid var(--color-btn-manage);
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 18.75rem;
+    height: 4rem;
+    color: white;
+    margin-left: 15.4rem;
+  }
+}
+
+.preview-prod{
+    &__text{
+        margin-left: 5.2rem;
+        margin-top: 5rem;
+        font-weight: bold;
+    }
 }

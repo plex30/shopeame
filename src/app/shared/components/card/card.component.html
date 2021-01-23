@@ -1,13 +1,15 @@
 <div class="c-card">
     <div class="c-card__background"></div>
-    <img class="c-card__img" src="{{data.image}}" alt="{{data.name}}">
+    <img class="c-card__img" src="{{data.image ? data.image : 'assets/img/no-image.png'}}" alt="{{data.name}}">
+    <div class="content-card">
     <h4 class="c-card__tittle">{{data.name}}</h4>
     <p class="c-card__desc">{{data.description}}</p>
     <h3 class="c-card__price">${{data.price}}</h3>
     <div class="c-card__stars">
         
         <ngb-rating class="stars-rating" [rate]="data.stars" readonly="true" max="5"></ngb-rating>
-        <p>{{data.stars}}</p>
-        <button class="btn-edit" (click)="sendProduct(data)">Editar</button>
-    </div>   
+        <p class="stars-rating__text">{{data.stars}}</p>
+        <button class="btn-edit" (click)="sendProduct(data)" *ngIf="router.isActive('/products', true)">Editar</button>
+    </div> 
+</div>
 </div>

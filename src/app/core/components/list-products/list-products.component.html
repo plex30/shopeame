@@ -1,0 +1,28 @@
+
+<div class="table-responsive-sm">
+    <table class="table list-prod">
+        <thead>
+          <tr>
+            <th scope="col">Imágen</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Descripción</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Puntuación</th>
+            <th scope="col">Editar</th>
+          </tr>
+        </thead>
+        <tbody>
+        <ng-container *ngFor="let item of listProd" class="c-li">
+          <tr>
+            <th><img src="{{item.image}}" class="list-prod__img"></th>
+            <td>{{item.name}}</td>
+            <td>{{item.description}}</td>
+            <td>{{item.price}}</td>
+            <td>{{item.stars}}</td>
+            <td><button>Editar</button></td>
+            
+          </tr>
+        </ng-container>
+        </tbody>
+      </table>
+    </div>

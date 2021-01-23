@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Zapatos Vintage",
       "price": 49.99,
-      "description": "mas viejos que ",
+      "description": "Magnifica botella de agua para beber",
       "stars": 4.5,
       "image": "https://i.ibb.co/4j85tBM/shoes.jpg"
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "name": "Máquina de escribir",
       "price": 109.99,
-      "description": "Bonita máquina de escribir antigua.",
+      "description": "mas viejos que ",
       "stars": 4.2,
       "image": "https://i.ibb.co/84zfbz0/maquina.jpg"
     },
@@ -71,6 +71,38 @@
       "stars": "3",
       "image": "https://media.metrolatam.com/2020/03/10/capturadepantall-3f5c3a38f645106c29458734a2a91b66-900x600.jpg",
       "id": 9
+    },
+    {
+      "name": "Botella de agua",
+      "price": "100",
+      "description": "Magnifica botella de agua para beber",
+      "stars": "5",
+      "image": "https://previews.123rf.com/images/hyrma/hyrma1706/hyrma170600002/79523285-botella-pl%C3%A1stica-de-agua-potable-aislada-en-el-fondo-blanco.jpg",
+      "id": 10
+    },
+    {
+      "name": "Pluma",
+      "price": "1",
+      "description": "dfdgsd",
+      "stars": "5",
+      "image": "https://www.fantastik.es/wp-content/uploads/images/products/p-7336-boligrafo-divertido-original-pluma.jpg",
+      "id": 11
+    },
+    {
+      "name": "Juan",
+      "price": "7",
+      "description": "mas viejos que ",
+      "stars": "5",
+      "image": "https://www.fantastik.es/wp-content/uploads/images/products/p-7336-boligrafo-divertido-original-pluma.jpg",
+      "id": 12
+    },
+    {
+      "name": "Juan",
+      "price": "7",
+      "description": "mas viejos que ",
+      "stars": "5",
+      "image": "https://www.fantastik.es/wp-content/uploads/images/products/p-7336-boligrafo-divertido-original-pluma.jpg",
+      "id": 13
     }
   ]
 }

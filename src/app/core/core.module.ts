@@ -13,6 +13,8 @@ import { RouterModule } from '@angular/router';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { SharedModule } from '../shared/shared.module';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ListProductsComponent } from './components/list-products/list-products.component';
+
 
 
 
@@ -28,7 +30,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     ContentHomeComponent, 
     ContentManagementComponent, 
     ContentProductsComponent, 
-    GalleryComponent,
+    GalleryComponent, 
+    ListProductsComponent
   ],
   imports: [
     CommonModule,

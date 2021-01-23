@@ -1,2 +1,3 @@
-<app-gallery [list]="products"></app-gallery>
+<app-gallery [list]="products" *ngIf="router.url==='/products'"></app-gallery>
+<app-list-products [listProd]="products" *ngIf="router.url==='/products/list'"></app-list-products>
 

@@ -10,10 +10,8 @@ import { ProductsService } from '../../services/products.service';
 export class CardComponent implements OnInit {
 
   @Input() data;
-  products: any = {};
-
-    
-  constructor(private router: Router, private productService: ProductsService) { }
+  
+  constructor(public router: Router, private productService: ProductsService) { }
 
   ngOnInit(): void {
   }

@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CardComponent } from './components/card/card.component';
-import { NgbModule, NgbRating } from '@ng-bootstrap/ng-bootstrap';
-import { CoreModule } from '../core/core.module';
+import { NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SearchComponent } from './components/search/search.component';
 
 
 
 
 @NgModule({
-  declarations: [CardComponent],
+  declarations: [CardComponent, SearchComponent],
   imports: [
     CommonModule,
     NgbModule,
@@ -17,6 +17,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 
     
-  ],exports: [CardComponent]
+  ],exports: [CardComponent, SearchComponent]
 })
 export class SharedModule { }

@@ -1,24 +1,27 @@
 <form class="f-manage" [formGroup]="dataFormu" (ngSubmit)="saveProduct()">
-    <input type="hidden" value="contId">
-    <label for="name">Nombre del producto</label>
-    <input type="text" name="name" id="name" placeholder="Por ej: Tiesto para planta" formControlName="name">
-    <label for="price">Precio</label>
-    <input type="text" name="price" id="price" placeholder="Por ej: 9.50" formControlName="price">
-    <label for="description">Descripción</label>
-    <input type="text" name="desc" id="desc" placeholder="Por ej: Lo más vendido este mes" formControlName="desc">
-    <label for="route">Ruta de la imagen</label>
-    <input type="text" name="route" id="route" placeholder="Por ej: http://blabla.com/img.jpg" formControlName="img">
-    <label for="option">Opiniones</label>
-    <input type="text" name="option" id="option" placeholder="Por ej: 4.28" formControlName="stars">
-    <button>Guardar</button>
-</form>
-<app-card [data]="data" *ngIf="data"></app-card>
 
-<div class="preview-prod" [data]="newData" *ngIf="newData">
-    <p>Preview del producto:</p>
-    <img src="{{newData.image}}" alt="{{newData.name}}">
-    <p>{{newData.name}}</p>
-    <p>{{newData.description}}</p>
-    <h4>{{newData.price}}€</h4>
-    <p>{{newData.stars}}</p>
+    <label class="f-manage__label" for="name">Nombre del producto:</label>
+    <input class="f-manage__input" type="text" name="name" id="name" placeholder="Por ej: Tiesto para planta" formControlName="name">
+
+    <label class="f-manage__label" for="price">Precio:</label>
+    <input class="f-manage__input" type="text" name="price" id="price" placeholder="Por ej: 9.50" formControlName="price">
+
+    <label class="f-manage__label" for="description">Descripción:</label>
+    <input class="f-manage__input" type="text" name="desc" id="desc" placeholder="Por ej: Lo más vendido este mes" formControlName="desc">
+
+    <label class="f-manage__label" for="route">Ruta de la imagen:</label>
+    <input class="f-manage__input" type="text" name="route" id="route" placeholder="Por ej: http://blabla.com/img.jpg" formControlName="img">
+
+    <label class="f-manage__label" for="option">Opiniones:</label>
+    <input class="f-manage__input" type="text" name="option" id="option" placeholder="Por ej: 4.28" formControlName="stars">
+
+    <button class="f-manage__btn">Guardar</button>
+</form>
+
+<div class="preview-prod" >
+<p class="preview-prod__text">Preview del producto:</p>
+<app-card [data]="newData" *ngIf="data == undefined"></app-card>
+<app-card [data]="data" *ngIf="data"></app-card>
 </div>
+
+

@@ -3,8 +3,11 @@
   <app-content-home></app-content-home>
 </div>
 
-<div class="main-products" *ngIf="router.url==='/products'">
+<div class="main-products" *ngIf="router.url==='/products' || router.url==='/products/list'">
   <h5 class="b-tittle">Listado de productos</h5>
+  <button [routerLink]="[ '/products']">All</button>
+  <button [routerLink]="[ '/products/list']">List</button>
+  <app-search [data]="products"></app-search>
   <app-content-products></app-content-products>
 </div>
 
