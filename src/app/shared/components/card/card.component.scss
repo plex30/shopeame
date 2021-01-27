@@ -1,7 +1,7 @@
 .c-card {
   font-family: 'Inter';
-  width: 79%;
-  margin-left: 5rem;
+  width: 55%;
+  margin-left: 9rem;
   margin-bottom:10rem;
   box-sizing: content-box;
  
@@ -11,6 +11,7 @@
   &__img {
     width: 80%;
     margin-left: 3.5rem;
+    margin-bottom: 2rem;
     height: 20rem;
   }
 
@@ -49,6 +50,7 @@
 
 .btn-edit {
   border: 1px solid #9dc2ff;
+  background-color: white;
   box-sizing: border-box;
   border-radius: 4px;
   width: 88px;
@@ -60,4 +62,13 @@
   letter-spacing: 0.018em;
   margin-top: -1.1rem;
   margin-left: 6rem;
+}
+
+.btn-delete{
+  border: none;
+  background-color: white;
+  font-size: 3rem;
+  color:#9dc2ff;
+  
+
 }

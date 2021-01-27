@@ -1,6 +1,6 @@
 
-<div class="table-responsive-sm">
-    <table class="table list-prod">
+<div class="table-responsive">
+    <table class="table list-prod ">
         <thead>
           <tr>
             <th scope="col">Imágen</th>
@@ -19,7 +19,7 @@
             <td>{{item.description}}</td>
             <td>{{item.price}}</td>
             <td>{{item.stars}}</td>
-            <td><button>Editar</button></td>
+            <td><button class="btn-edit" (click)="sendProduct(item)" *ngIf="router.isActive('/products/list', true)"><i class="fas fa-edit"></i></button></td>
             
           </tr>
         </ng-container>

@@ -10,6 +10,7 @@ export class ProductsService {
   constructor(private http: HttpClient) { }
 
   product:any;
+  filterProducts:any;
 
   getProducts(){
     return this.http.get('http://localhost:3000/products');
@@ -35,5 +36,10 @@ export class ProductsService {
 
   putProduct(updProduct, idProd){
     return this.http.put('http://localhost:3000/products/'+idProd, updProduct);
+  }
+
+  delProduct(product){
+    console.log(product)
+    return this.http.delete('http://localhost:3000/products/'+product.id);
   }
 }

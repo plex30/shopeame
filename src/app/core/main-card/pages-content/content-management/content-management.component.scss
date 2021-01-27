@@ -1,6 +1,7 @@
 .f-manage {
   width: 75%;
   margin-left: 5.5rem;
+  margin-top: 4rem;
   border-bottom: 1px solid var(--color-btn-manage);
   padding-bottom: 10rem;
 
@@ -15,7 +16,7 @@
   }
 
   &__label {
-    padding-bottom: 2rem;
+    margin-bottom: -4rem;
   }
 
   &__btn {

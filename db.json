@@ -1,46 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Zapatos Vintage",
-      "price": 49.99,
-      "description": "Magnifica botella de agua para beber",
-      "stars": 4.5,
-      "image": "https://i.ibb.co/4j85tBM/shoes.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Máquina de escribir",
-      "price": 109.99,
-      "description": "mas viejos que ",
-      "stars": 4.2,
-      "image": "https://i.ibb.co/84zfbz0/maquina.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Lapiceros de colores",
-      "price": 1.99,
-      "description": "Estupendos bolígrafos de colores.",
-      "stars": 1,
-      "image": "https://i.ibb.co/s5m7HKt/lapiceros.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Pantalón",
-      "price": 49.99,
-      "description": "Pantalón de moto para evitar heridas.",
-      "stars": 4,
-      "image": "https://i.ibb.co/6nnVkNY/pantalon.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Cuaderno de colores",
-      "price": 7.25,
-      "description": "Excelente cuaderno para que apuntes tus clases.",
-      "stars": 3.5,
-      "image": "https://i.ibb.co/Jr3FHVd/cuaderno.jpg"
-    },
-    {
       "id": 6,
       "name": "Jarabe marca blanca",
       "price": 12.5,
@@ -73,36 +33,36 @@
       "id": 9
     },
     {
-      "name": "Botella de agua",
-      "price": "100",
-      "description": "Magnifica botella de agua para beber",
-      "stars": "5",
-      "image": "https://previews.123rf.com/images/hyrma/hyrma1706/hyrma170600002/79523285-botella-pl%C3%A1stica-de-agua-potable-aislada-en-el-fondo-blanco.jpg",
+      "name": "Pluma",
+      "price": "1",
+      "description": "dfdgsd",
+      "stars": "2",
+      "image": "https://www.fantastik.es/wp-content/uploads/images/products/p-7336-boligrafo-divertido-original-pluma.jpg",
       "id": 10
     },
     {
       "name": "Pluma",
       "price": "1",
-      "description": "dfdgsd",
-      "stars": "5",
+      "description": "Magnifica botella de agua para beber",
+      "stars": "2",
       "image": "https://www.fantastik.es/wp-content/uploads/images/products/p-7336-boligrafo-divertido-original-pluma.jpg",
       "id": 11
     },
     {
-      "name": "Juan",
-      "price": "7",
+      "name": "g",
+      "price": "er",
       "description": "mas viejos que ",
-      "stars": "5",
-      "image": "https://www.fantastik.es/wp-content/uploads/images/products/p-7336-boligrafo-divertido-original-pluma.jpg",
-      "id": 12
+      "stars": "2",
+      "image": "https://media.metrolatam.com/2020/03/10/capturadepantall-3f5c3a38f645106c29458734a2a91b66-900x600.jpg",
+      "id": 13
     },
     {
       "name": "Juan",
-      "price": "7",
-      "description": "mas viejos que ",
+      "price": "1",
+      "description": "Magnifica botella de agua para beber",
       "stars": "5",
       "image": "https://www.fantastik.es/wp-content/uploads/images/products/p-7336-boligrafo-divertido-original-pluma.jpg",
-      "id": 13
+      "id": 14
     }
   ]
 }

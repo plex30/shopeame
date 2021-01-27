@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { ProductsService } from 'src/app/shared/services/products.service';
+import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-content-management',
@@ -10,7 +11,7 @@ import { ProductsService } from 'src/app/shared/services/products.service';
 })
 export class ContentManagementComponent implements OnInit {
 
-  constructor(private productService: ProductsService, private router: Router, private formBuilder: FormBuilder) { }
+  constructor(private productService: ProductsService, private router: Router, private formBuilder: FormBuilder, private modalService: NgbModal ) { }
 
   data = {
     id: 0,
@@ -31,7 +32,7 @@ export class ContentManagementComponent implements OnInit {
   };
 
   dataFormu;
-
+  closeResult = '';
 
  
 
@@ -92,16 +93,25 @@ export class ContentManagementComponent implements OnInit {
 
   }
   
-  saveProduct(){
+  saveProduct(content){
     if (!this.data) {
       this.productService.postProduct(this.newData).subscribe();
+      this.open(content);
+      this.router.navigateByUrl('/products');
     }else{
       this.productService.putProduct(this.data, this.data.id).subscribe();
+      this.open(content);
+      this.router.navigateByUrl('/products');
     }
     
   }
 
+  open(content) {
+    this.modalService.open(content);
+  }
 }
+
+
 
   
 

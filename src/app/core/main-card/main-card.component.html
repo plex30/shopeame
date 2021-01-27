@@ -4,10 +4,11 @@
 </div>
 
 <div class="main-products" *ngIf="router.url==='/products' || router.url==='/products/list'">
-  <h5 class="b-tittle">Listado de productos</h5>
-  <button [routerLink]="[ '/products']">All</button>
-  <button [routerLink]="[ '/products/list']">List</button>
-  <app-search [data]="products"></app-search>
+  <h5 class="b-tittle">Listado de productos({{numProd}})</h5>
+  <div class="btn-view">
+  <button [routerLink]="[ '/products/']" class="btn-view__link" routerLinkActive="btn-view__link--active" [routerLinkActiveOptions]="{ exact: true }"><i class="fas fa-th-list"></i></button>
+  <button [routerLink]="[ '/products/list']" class="btn-view__link" routerLinkActive="btn-view__link--active" ><i class="fas fa-th-large"></i></button>
+  </div>
   <app-content-products></app-content-products>
 </div>
 

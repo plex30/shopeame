@@ -1,3 +1,6 @@
+<form [formGroup]="searchForm" class="f-search">
+    <input type="text" placeholder="Buscador" formControlName="name" class="f-search__inp">
+</form>
 <app-gallery [list]="products" *ngIf="router.url==='/products'"></app-gallery>
 <app-list-products [listProd]="products" *ngIf="router.url==='/products/list'"></app-list-products>
 
