@@ -1,11 +1,11 @@
 .main-home, .main-products, .main-management {
   background-color: var(--color-white);
-  width: 96vw;
+  width: 90%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   color: var(--color-black);
   font-family: "Inter";
-  margin: 28rem 2rem 1rem 0.7rem;
+  margin: 28rem 2rem 1rem 1.4rem;
 }
 
 .main-products{
@@ -62,3 +62,7 @@
 
   }
 }
+
+@import '../../../styles/settings/breakpoints';
+@import '../../../styles/settings/media';
+

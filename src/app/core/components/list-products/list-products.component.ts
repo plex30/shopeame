@@ -21,4 +21,12 @@ export class ListProductsComponent implements OnInit {
     this.router.navigateByUrl('/management');
   }
 
+  deleteProduct(product){
+    let ok = confirm('¿Está seguro que desea eliminar el producto?');
+    if (ok == true) {
+      this.productService.delProduct(product).subscribe();
+      location.reload();
+    }
+  }
+
 }

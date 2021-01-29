@@ -1,0 +1,68 @@
+@include tablet{
+    .main-home{
+       width: 70%; 
+       margin-left: 12.48rem;
+    }
+
+    .main-products{
+        width: 94.4%;
+    }
+
+    .btn-view{
+        margin-top: 4rem;
+        margin-left: 65rem;
+      
+      }
+
+    .f-search__inp{ 
+        width: 34%;
+        margin-left: 42.2rem;
+    } 
+
+    .c-footer__text{
+        margin-right: 6rem;
+    }
+
+    .c-socialmedia{
+        margin-right: 7rem;
+    }
+
+    .c-card {
+        width: 75%;
+        height: 250px;
+        margin-left: 1rem;
+        &__img{
+            width: 70%;
+            height: 100px;
+        }
+    }
+
+    .list-prod__img{
+        width: 40%;
+    }
+
+    .table{
+        width: 85%;
+        margin-left: 7rem;
+    }
+
+    .f-manage{
+        width: 60%;
+        margin-left: 16rem;
+    }
+
+    .f-manage__btn{
+        margin-left: 34rem;
+    }
+
+    .preview-prod{
+        margin-left:28rem;
+        width: 40%;
+        &__text{
+            margin-left: 5.2rem;
+            margin-top: 5rem;
+            font-weight: bold;
+        }
+    }
+
+}

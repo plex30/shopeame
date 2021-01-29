@@ -1,0 +1,17 @@
+@import 'variables-media';
+
+@mixin phablet {
+    @media screen and (min-width: $phablet-size) {
+        @content
+    }
+};
+@mixin tablet {
+    @media screen and (min-width: $tablet-size) {
+        @content
+    }
+};
+@mixin desktop {
+    @media screen and (min-width: $desktop-size) {
+        @content
+    }
+};

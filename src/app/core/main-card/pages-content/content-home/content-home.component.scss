@@ -1,7 +1,7 @@
 .mc-home{
     font-family: var(--font-family-base);
     font-style: normal;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 13px;
     line-height: 150%;
     letter-spacing: 0.0275em;
@@ -11,5 +11,10 @@
     
     &__text{
         font-weight: 500;
+    }
+
+    &__tittle{
+        font-weight: bolder;
+        font-size: 2rem;
     }
 }

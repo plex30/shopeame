@@ -35,14 +35,6 @@
     {
       "name": "Pluma",
       "price": "1",
-      "description": "dfdgsd",
-      "stars": "2",
-      "image": "https://www.fantastik.es/wp-content/uploads/images/products/p-7336-boligrafo-divertido-original-pluma.jpg",
-      "id": 10
-    },
-    {
-      "name": "Pluma",
-      "price": "1",
       "description": "Magnifica botella de agua para beber",
       "stars": "2",
       "image": "https://www.fantastik.es/wp-content/uploads/images/products/p-7336-boligrafo-divertido-original-pluma.jpg",
@@ -55,14 +47,6 @@
       "stars": "2",
       "image": "https://media.metrolatam.com/2020/03/10/capturadepantall-3f5c3a38f645106c29458734a2a91b66-900x600.jpg",
       "id": 13
-    },
-    {
-      "name": "Juan",
-      "price": "1",
-      "description": "Magnifica botella de agua para beber",
-      "stars": "5",
-      "image": "https://www.fantastik.es/wp-content/uploads/images/products/p-7336-boligrafo-divertido-original-pluma.jpg",
-      "id": 14
     }
   ]
 }

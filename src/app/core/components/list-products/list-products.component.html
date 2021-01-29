@@ -8,7 +8,7 @@
             <th scope="col">Descripción</th>
             <th scope="col">Precio</th>
             <th scope="col">Puntuación</th>
-            <th scope="col">Editar</th>
+            <th scope="col">Editar/Borrar</th>
           </tr>
         </thead>
         <tbody>
@@ -18,9 +18,10 @@
             <td>{{item.name}}</td>
             <td>{{item.description}}</td>
             <td>{{item.price}}</td>
-            <td>{{item.stars}}</td>
-            <td><button class="btn-edit" (click)="sendProduct(item)" *ngIf="router.isActive('/products/list', true)"><i class="fas fa-edit"></i></button></td>
-            
+            <td><ngb-rating class="stars-rating" [rate]="item.stars" readonly="true" max="5"></ngb-rating></td>
+            <td><button class="btn-edit" (click)="sendProduct(item)" *ngIf="router.isActive('/products/list', true)"><i class="fas fa-edit"></i></button>
+              <button class="btn-delete" (click)="deleteProduct(item)" *ngIf="router.isActive('/products/list', true)"><i class="far fa-window-close"></i></button></td>
+            <td></td>
           </tr>
         </ng-container>
         </tbody>
